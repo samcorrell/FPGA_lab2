@@ -50,6 +50,10 @@ module led_7seg(
             5: seg = 7'b0010010;
             6: seg = 7'b0000010;
             7: seg = 7'b1111000;
+            8: seg = 7'b0000000;
+            9: seg = 7'b0000100;
+            10: seg = 7'b0000000;
+            11: seg = 7'b0000000;
         endcase
     end
             

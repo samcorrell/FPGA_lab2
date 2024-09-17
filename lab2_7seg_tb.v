@@ -29,7 +29,7 @@ led_7seg uut(iseg, oseg);
 
 integer i;
 initial begin
-    for(i=0; i<8; i=i+1) begin
+    for(i=0; i<12; i=i+1) begin
         #10 iseg = i;
     end
     #10 $stop;
